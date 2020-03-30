@@ -1,6 +1,6 @@
 # Laravel Admin
 
-This is convenient project that mixes Laravel, AdminLTE2, and spatie-permissions.
+This is a convenient project that mixes Laravel, AdminLTE2, and spatie-permissions.
 
 ### Screenshots
 
