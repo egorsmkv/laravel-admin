@@ -13,7 +13,7 @@ Route::get('/home', function () {
     return redirect('/admin/dashboard');
 });
 
-Route::namespace('Admin')->prefix('/admin')->middleware(['auth'])->group(function () {
+Route::namespace('Admin')->prefix('/admin')->middleware(['auth', 'role:admin'])->group(function () {
 
     Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
 
