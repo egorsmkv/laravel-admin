@@ -7,8 +7,6 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
-    <title>Admin</title>
-
     <link rel="stylesheet" href="{{ asset('components/bootstrap/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('components/font-awesome/css/font-awesome.min.css') }}">
     <link rel="stylesheet" href="{{ asset('components/Ionicons/css/ionicons.min.css') }}">
